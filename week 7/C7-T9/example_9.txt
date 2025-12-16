@@ -1,0 +1,11 @@
+# result = 40.937 (remove this line before testing your program with this file)
+  12.5
+3.75   
+   -4.2
+0.005
+7
+   10.333   
+  2.8
+-1.75 
+ 9.999  
+ 0.5
