@@ -1,0 +1,201 @@
+student_id,name,subject,grade
+1001,Jacob Rodriguez,Art,3.31
+1002,Michael Moore,Computer Science,1.43
+1003,Michael Martin,Physical Education,2.83
+1004,Sophia Wilson,Economics,3.25
+1005,Mason Davis,Physical Education,2.9
+1006,James Gonzalez,Art,3.28
+1007,Alexander Lopez,Geography,1.8
+1008,Daniel Anderson,Mathematics,4.72
+1009,Jacob Taylor,History,4.61
+1010,Elijah Martinez,English,3.83
+1011,Daniel Taylor,English,4.11
+1012,Noah Moore,Mathematics,4.59
+1013,Henry Williams,Art,3.53
+1014,James Rodriguez,Art,1.15
+1015,Henry Gonzalez,Geography,3.35
+1016,Daniel Martinez,Geography,4.85
+1017,Alexander Moore,Geography,4.83
+1018,Isabella Lopez,Computer Science,2.77
+1019,Daniel Thomas,Mathematics,1.98
+1020,Emma Johnson,History,3.88
+1021,Mason Hernandez,Computer Science,1.04
+1022,Oliver Taylor,Art,1.7
+1023,Lucas Garcia,Science,3.15
+1024,Alexander Gonzalez,Art,3.52
+1025,Ethan Taylor,Mathematics,1.7
+1026,Daniel Lopez,Mathematics,3.37
+1027,Sophia Martinez,English,1.98
+1028,Daniel Jones,Computer Science,3.55
+1029,Henry Brown,Geography,2.7
+1030,Jacob Taylor,Economics,2.9
+1031,Jacob Garcia,Science,4.33
+1032,Ethan Brown,Mathematics,2.86
+1033,Liam Williams,Computer Science,4.29
+1034,Elijah Wilson,History,3.18
+1035,Jacob Williams,Economics,2.31
+1036,Isabella Gonzalez,Physical Education,1.6
+1037,Oliver Jones,Mathematics,4.37
+1038,Daniel Davis,Mathematics,4.76
+1039,Ethan Gonzalez,Music,2.05
+1040,Jacob Jones,History,2.15
+1041,Liam Hernandez,Physical Education,3.12
+1042,Daniel Garcia,Mathematics,2.05
+1043,Jacob Jackson,Geography,4.48
+1044,William Brown,Geography,4.11
+1045,Michael Smith,Economics,1.93
+1046,William Wilson,Music,2.52
+1047,Logan Rodriguez,History,1.56
+1048,Ava Thomas,Science,4.17
+1049,Henry Martin,Economics,3.44
+1050,Olivia Williams,Science,4.53
+1051,Ava Jones,Economics,3.57
+1052,Olivia Williams,Mathematics,2.31
+1053,Henry Wilson,Mathematics,1.37
+1054,Ethan Johnson,Economics,4.7
+1055,Emma Garcia,Physical Education,2.03
+1056,Olivia Jones,English,2.03
+1057,Henry Davis,Geography,2.58
+1058,Sophia Jackson,Physical Education,4.76
+1059,Olivia Davis,Music,3.01
+1060,William Smith,Music,4.89
+1061,Isabella Hernandez,Computer Science,3.08
+1062,Logan Wilson,English,4.28
+1063,Ethan Davis,Mathematics,4.77
+1064,Liam Jones,Music,3.23
+1065,Michael Martinez,Art,1.36
+1066,Mason Taylor,Science,3.43
+1067,Logan Williams,Science,2.17
+1068,Logan Miller,Physical Education,4.94
+1069,Jacob Johnson,Music,2.36
+1070,Daniel Lopez,Computer Science,2.2
+1071,Jacob Thomas,Art,3.11
+1072,Noah Smith,History,4.92
+1073,Lucas Wilson,Economics,4.67
+1074,Olivia Hernandez,Economics,1.56
+1075,Noah Garcia,Geography,3.52
+1076,Ethan Jackson,Art,2.27
+1077,Noah Jackson,Science,3.52
+1078,Elijah Williams,Music,1.02
+1079,Logan Smith,Economics,4.45
+1080,Elijah Garcia,English,4.33
+1081,Olivia Jones,Music,1.81
+1082,Noah Hernandez,Art,3.36
+1083,Isabella Garcia,Science,1.96
+1084,Sophia Thomas,History,2.49
+1085,Daniel Taylor,Geography,1.86
+1086,Jacob Jackson,History,2.07
+1087,Daniel Lopez,Geography,3.42
+1088,Ethan Johnson,Geography,4.42
+1089,Emma Jackson,Art,3.07
+1090,Henry Brown,Music,2.35
+1091,William Brown,Physical Education,4.76
+1092,Mason Jackson,Computer Science,2.4
+1093,Emma Martin,History,3.59
+1094,Olivia Jones,Science,4.02
+1095,Lucas Hernandez,Mathematics,2.33
+1096,Elijah Anderson,Science,2.6
+1097,Sophia Anderson,Computer Science,2.11
+1098,Jacob Brown,Music,4.71
+1099,William Gonzalez,Music,4.11
+1100,Alexander Hernandez,English,4.02
+1101,Mason Brown,Economics,4.67
+1102,Logan Gonzalez,History,2.43
+1103,Ethan Miller,History,3.62
+1104,Elijah Jones,Science,3.22
+1105,Noah Martin,Computer Science,1.13
+1106,Elijah Miller,Computer Science,2.08
+1107,Emma Williams,English,2.84
+1108,Logan Williams,Physical Education,4.75
+1109,Ethan Miller,Economics,4.23
+1110,Ava Brown,Science,3.3
+1111,Sophia Thomas,Physical Education,4.22
+1112,Lucas Martinez,Computer Science,3.31
+1113,Olivia Brown,Mathematics,2.51
+1114,Henry Gonzalez,English,2.31
+1115,Sophia Jones,English,4.57
+1116,Noah Martin,Science,1.21
+1117,Lucas Johnson,Economics,2.1
+1118,Logan Garcia,Mathematics,4.7
+1119,Daniel Wilson,Physical Education,1.25
+1120,James Gonzalez,History,1.58
+1121,Jacob Gonzalez,Economics,1.58
+1122,Lucas Davis,Art,1.01
+1123,Olivia Anderson,Geography,2.8
+1124,Alexander Davis,Physical Education,4.42
+1125,Noah Smith,Music,3.06
+1126,James Davis,History,1.34
+1127,Sophia Brown,Mathematics,3.08
+1128,James Williams,Physical Education,4.15
+1129,Noah Johnson,Geography,1.92
+1130,Elijah Brown,Computer Science,4.08
+1131,Oliver Thomas,Science,2.4
+1132,Ava Miller,English,3.99
+1133,William Jones,Geography,2.61
+1134,Lucas Martinez,History,2.88
+1135,Oliver Jones,Geography,2.68
+1136,Alexander Martin,Music,4.53
+1137,Elijah Smith,Economics,2.03
+1138,Alexander Thomas,Economics,3.64
+1139,Jacob Hernandez,Mathematics,4.34
+1140,Henry Davis,Art,2.28
+1141,Sophia Rodriguez,English,2.48
+1142,Jacob Jackson,Physical Education,4.87
+1143,Lucas Martinez,History,1.32
+1144,Oliver Hernandez,Economics,3.05
+1145,Jacob Jones,Computer Science,2.79
+1146,Logan Taylor,English,2.24
+1147,James Lopez,Mathematics,3.61
+1148,Henry Wilson,Mathematics,3.38
+1149,Ava Lopez,Science,1.17
+1150,Ethan Moore,Science,4.46
+1151,Michael Jones,English,1.13
+1152,Henry Miller,Economics,4.05
+1153,Mason Davis,Music,2.28
+1154,Noah Martin,History,1.05
+1155,Olivia Miller,Geography,4.67
+1156,William Hernandez,Computer Science,4.5
+1157,Isabella Jackson,Music,2.39
+1158,Ava Davis,Economics,2.94
+1159,Mason Garcia,Physical Education,4.59
+1160,Henry Miller,Physical Education,3.04
+1161,Michael Johnson,Geography,1.91
+1162,Daniel Johnson,History,1.38
+1163,Liam Martin,Science,3.77
+1164,Henry Brown,Economics,3.52
+1165,Lucas Martinez,Economics,4.06
+1166,Sophia Johnson,History,2.04
+1167,Liam Lopez,Science,1.65
+1168,Mason Lopez,Economics,1.08
+1169,Olivia Wilson,Art,1.08
+1170,Noah Lopez,Geography,2.73
+1171,Oliver Moore,Geography,4.01
+1172,Logan Johnson,Economics,3.08
+1173,Oliver Garcia,Mathematics,1.24
+1174,Logan Brown,Computer Science,1.71
+1175,Daniel Rodriguez,Art,1.53
+1176,Logan Anderson,Mathematics,4.61
+1177,Henry Wilson,Music,1.1
+1178,Mason Brown,English,1.75
+1179,Lucas Brown,History,3.45
+1180,Liam Taylor,English,2.34
+1181,James Jackson,Physical Education,2.17
+1182,Isabella Thomas,Science,1.71
+1183,Noah Wilson,Physical Education,2.22
+1184,Emma Rodriguez,Economics,4.84
+1185,Henry Jones,Music,2.63
+1186,Michael Moore,Music,1.77
+1187,Oliver Martin,Geography,4.06
+1188,William Martinez,Music,1.82
+1189,Henry Taylor,Art,3.67
+1190,Sophia Davis,Music,4.57
+1191,Daniel Anderson,Geography,1.64
+1192,Oliver Garcia,Mathematics,2.35
+1193,Logan Martinez,Art,2.06
+1194,James Taylor,Physical Education,3.34
+1195,Ava Martin,Physical Education,2.13
+1196,Michael Taylor,History,3.51
+1197,Alexander Jones,Science,2.76
+1198,Lucas Brown,Music,3.23
+1199,Emma Davis,History,1.05
+1200,Alexander Wilson,Music,2.85

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)https://moodle.lut.fi/pluginfile.php/2861112/mod_resource/content/2/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Neon Calc</title>
+    <style>
+      body {
+        background-color: #121212;
+        color: #00ff9d;
+        font-family: "Courier New", monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .calculator {
+        background: #1e1e1e;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 255, 157, 0.2);
+        width: 300px;
+      }
+      #display {
+        width: 100%;
+        height: 50px;
+        background: #000;
+        border: 1px solid #333;
+        color: #fff;
+        font-size: 24px;
+        text-align: right;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+        border-radius: 5px;
+      }
+      .buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+      }
+      button {
+        padding: 15px;
+        font-size: 18px;
+        background: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+      button:hover {
+        background: #444;
+      }
+      button.op {
+        background: #005f3d;
+        color: #00ff9d;
+      }
+      button.op:hover {
+        background: #007f52;
+      }
+      button.eq {
+        background: #00ff9d;
+        color: #000;
+        grid-column: span 4;
+        font-weight: bold;
+      }
+      button.eq:hover {
+        background: #00cc7d;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <div id="display">0</div>
+      <div class="buttons">
+        <button onclick="append('7')">7</button>
+        <button onclick="append('8')">8</button>
+        <button onclick="append('9')">9</button>
+        <button class="op" onclick="setOp('add')">+</button>
+        <button onclick="append('4')">4</button>
+        <button onclick="append('5')">5</button>
+        <button onclick="append('6')">6</button>
+        <button class="op" onclick="setOp('sub')">-</button>
+        <button onclick="append('1')">1</button>
+        <button onclick="append('2')">2</button>
+        <button onclick="append('3')">3</button>
+        <button class="op" onclick="setOp('mul')">*</button>
+        <button onclick="append('0')">0</button>
+        <button onclick="clearDisplay()">C</button>
+        <button class="op" onclick="setOp('div')">/</button>
+        <button class="eq" onclick="calculate()">=</button>
+      </div>
+    </div>
+
+    <script>
+      let currentInput = "";
+      let previousInput = "";
+      let operator = "";
+
+      function append(val) {
+        currentInput += val;
+        document.getElementById("display").innerText = currentInput;
+      }
+
+      function setOp(op) {
+        operator = op;
+        previousInput = currentInput;
+        currentInput = "";
+      }
+
+      function clearDisplay() {
+        currentInput = "";
+        previousInput = "";
+        operator = "";
+        document.getElementById("display").innerText = "0";
+      }
+
+      async function calculate() {
+        if (!operator || !previousInput || !currentInput) return;
+
+        // CALLING THE PYTHON BACKEND
+        const response = await fetch(
+          `/calculate?a=${previousInput}&b=${currentInput}&op=${operator}`
+        );
+        const data = await response.json();
+
+        document.getElementById("display").innerText = data.result;
+        currentInput = data.result;
+        previousInput = "";
+        operator = "";
+      }
+    </script>
+  
+
+</body></html>
